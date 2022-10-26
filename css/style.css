@@ -1,0 +1,59 @@
+* {
+    font-family: 'Raleway';
+    margin: 0;padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: url('../images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+:root {
+    --green-color: #66CC00;
+}
+
+/* ----------------------- */
+    /* Clases de Texto */
+/* ----------------------- */
+.xlight {
+    font-weight: 200;
+}
+
+.light {
+    font-weight: 300;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* ----------------------- */
+        /* Navbar */
+/* ----------------------- */
+.navbar {
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar .navbar-nav .active a {
+    color: #66CC00 !important;
+}
+
+/* ----------------------- */
+   /* Sección de Inicio */
+/* ----------------------- */
+#inicio img {
+    height: 320px;
+}
+
+#inicio h1 {
+    font-size: 64px;
+    line-height: 75px;
+}
