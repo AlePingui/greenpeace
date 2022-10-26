@@ -46,6 +46,19 @@ body {
     color: #66CC00 !important;
 }
 
+@media screen and (max-width: 575px) {
+    #navbarTogglerDemo01 {
+        position: absolute;
+        width: 100vw;
+        top: 60px;
+        left: 0;
+    }
+
+    .ul-responsive {
+        background-color: #f8f9fa;
+    }
+}
+
 /* ----------------------- */
    /* Sección de Inicio */
 /* ----------------------- */
@@ -56,4 +69,36 @@ body {
 #inicio h1 {
     font-size: 64px;
     line-height: 75px;
+}
+
+@media screen and (min-width: 1200px) {
+    #inicio img {
+        height: 430px;
+    }
+
+    #inicio h1 {
+        font-size: 72px;
+    }
+
+    #inicio iframe {
+        width: 469px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 682px) {
+    #inicio img {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    #inicio h1 {
+        font-size: 45px;
+        line-height: 1;
+    }
+
+    #inicio iframe {
+        width: 320px;
+        height: 170px;
+    }
 }
