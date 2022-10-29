@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Greenpeace</title>
+    <meta name="description" content="Greenpeace es una ONG que cuida al medioambiente, está ubicada en distintas partes del mundo">
+    <link rel="shortcut icon" href="images/greenpeace-hand.svg">
 
     <!-- Raleway Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,21 +35,23 @@
         <div class="collapse navbar-collapse justify-content-sm-end" id="navbarTogglerDemo01">
             
             <ul class="navbar-nav ul-responsive align-items-center">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#inicio">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
 
     <div class="container-md">
-        <section id="inicio" class="vh-100 d-flex align-items-sm-center row justify-content-center">
+
+        <!-- Sección Inicio -->
+        <section id="inicio" class="min-vh-100 d-flex align-items-sm-center row justify-content-center">
             <div class="col-12 col-sm-4 col-md-4 col-lg-3 d-flex align-items-end align-items-sm-center justify-content-center">
                 <img src="images/greenpeace-hand.svg" alt="Mano verde que representa a Greenpeace" class="mb-sm-0">
             </div>
@@ -56,7 +60,67 @@
                 <iframe width="417" height="230" src="https://www.youtube.com/embed/9H-D0tMpDog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </aside>
         </section>
+
+        <!-- Seccion Nosotros -->
+        <section id="nosotros" class="min-vh-100 d-flex align-items-center row justify-content-md-between">
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start col-md-auto nosotros_info">
+                <img src="images/quienes_somos.svg" alt="Imágen referente al título de Quienes Somos">
+                <h4 class="bold text-light">Quiénes Somos</h4>
+                <p class="light text-light">Trabajamos para defender el medio ambiente, promover la paz y estimular a las personas para que cambien actitudes y comportamientos que ponen en riesgo a la naturaleza.</p>
+            </div>
+
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start col-md-auto nosotros_info">
+                <img src="images/nuestros_barcos.svg" alt="Imágen referente al título de Nuestros Barcos">
+                <h4 class="bold text-light">Nuestros Barcos</h4>
+                <p class="light text-light">El Rainbow Warrior, el Artic Sunrise y el Witness son barcos fundamentales para llevar a cabo las campañas alrededor de todo el mundo</p>
+            </div>
+
+            <div class="col-12 d-flex flex-column justify-content-center align-items-center align-items-md-start col-md-auto nosotros_info">
+                <img src="images/campañas_ganadas.svg" alt="Imágen referente al título Campañas Ganadas">
+                <h4 class="bold text-light">Campañas Ganadas</h4>
+                <p class="light text-light">Sentimos orgullo de formar parte de una red global de organizaciones independientes de Greenpeace. <a href="https://www.greenpeace.org/argentina/campanas/">Ingresa</a> y descubrí todo lo que logramos</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="min-vh-100 align-items-center row mt-5 mt-md-0">
+            <div class="col-12 col-lg-5">
+                <form class="contacto_form d-flex flex-column justify-content-around">
+                    <div class="form_input">
+                        <label for="nombre">
+                            <input required type="text" id="nombre" class="text-light">
+                            <span class="xlight">Nombre y apellido</span>
+                        </label>
+                    </div>
+                    <div class="form_input">
+                        <label for="email">
+                            <input required type="text" id="email" class="text-light">
+                            <span class="xlight">Correo electronico</span>
+                        </label>
+                    </div>
+                    <div class="form_input-textarea">
+                        <label for="mensaje">
+                            <textarea required type="text" id="mensaje" class="text-light"></textarea>
+                            <span class="xlight">Mensaje</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="form_button bold text-light">Enviar Mensaje</button>
+                </form>
+            </div>
+            <div class="col-12 col-lg-7 contacto_aside text-light">
+                <h2 class="bold">Greenpeace en Argentina</h2>
+                <p class="light">Greenpeace Argentina se inauguró oficialmente el 1º de abril de 1987 y fue la primera oficina que se abrió en un país en vías de desarrollo.</p>
+                <p class="light">El pequeño grupo de voluntarios que había empezado a trabajar en 1986 decidió que lo mejor era comenzar a hacer campaña sobre los residuos tóxicos y exigir que se prohíba la producción, importación, venta y uso de los 12 compuestos químicos más tóxicos.</p>
+                <p class="light">A lo largo de más de 30 años trabajamos en campañas orientadas a diferentes temas ambientales, entre ellos, la promoción de las energías renovables, como la solar y la eólica. Así pusimos en discusión el problema del cambio climático. También, hicimos una campaña de pesca y conseguimos las primeras medidas de preservación. Estuvimos en contra del vertido de tóxicos en mares y ríos e impulsamos una ley para la gestión de los residuos urbanos en la Ciudad de Buenos Aires (Ley de Basura Cero). Y conseguimos, con el apoyo de miles de personas, la aprobación de leyes que protegen los bosques y los glaciares.</p>
+                <p class="light">Todo esto es posible gracias a los más de 165 mil socios que mes a mes hacen su aporte monetario y así nos permiten seguir siendo independientes, tanto económica como políticamente. Y a las 300 personas que donan su tiempo a nuestra causa y son parte de nuestra comunidad de voluntariado nacional en Buenos Aires, Salta, Rosario, Córdoba, Bahía Blanca, Mendoza, Mar del Plata y Misiones.</p>
+                <p class="light">Somos la organización ambientalista más grande del país. La lucha, la independencia y la convicción de que podemos tener un planeta más sano son los motores por los que trabajamos todos los días.</p>
+            </div>
+        </section>
+
     </div>
+
+    <footer class="row align-items-center justify-content-center">
+        <p class="text-light light">Greenpeace Argentina 2020&copy;</p>
+    </footer>
 
     <!-- JQuery -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -71,6 +135,8 @@
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
 
+    <script src="js/inputs.js"></script>
+    <script src="js/active-nav.js"></script>
 </body>
 
 </html>
