@@ -225,8 +225,9 @@ body {
 .contacto_aside h2 {
     font-size: 40px;
 }
-.contacto_form p {
-    font-size: 18px;
+.contacto_aside p {
+    font-size: 16px;
+    margin-bottom: 0 !important;
 }
 
 /* ----------------------- */
